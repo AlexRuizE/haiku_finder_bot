@@ -55,7 +55,7 @@ r.login(username=username, password=password)
 submissions = r.get_subreddit('all').get_hot(limit=25)
 submission = next(submissions)
 already_done=set()
-banned=[] # Add subreddits that will ban your bot
+banned=['funny','politics','atheism', 'AskReddit', 'aww', 'wheredidthesodago', 'Minecraft', 'comics', 'technology', 'pics', 'IAmA'] # Add subreddits that might ban your bot
 
 
 
