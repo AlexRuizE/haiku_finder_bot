@@ -1,5 +1,3 @@
-#! /usr/bin/python3.4 (maybe)
-
 import re, requests, collections, praw, time
 
 words=list()                                        
